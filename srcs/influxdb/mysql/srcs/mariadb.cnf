@@ -1,0 +1,6 @@
+[mariadb]
+user = root
+datadir = /var/lib/mysql
+port = 3306
+bind-address = 0.0.0.0
+skip-networking = false

@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config
+  namespace: metallb-system
+data:
+  config: |
+    address-pools:
+    - name: default
+      protocol: layer2
+      addresses:
+      - 192.168.99.170-192.168.99.175
+    - name: default-wp
+      protocol: layer2
+      addresses:
+      - 192.168.99.176-192.168.99.176

@@ -1,0 +1,15 @@
+FROM	alpine
+
+RUN		apk add wget php7 php7-fpm php7-mysqli php7-mbstring php7-json php7-session && \
+		apk add telegraf --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing/ --allow-untrusted --no-cache
+RUN		mkdir -p /usr/share/webapps/ && cd /usr/share/webapps/
+RUN		wget http://wordpress.org/latest.tar.gz && tar -xzvf latest.tar.gz && rm latest.tar.gz
+RUN		mkdir -p /var/www && mv /wordpress /var/www/
+
+COPY	/srcs/telegraf.conf			/etc/telegraf/
+COPY	/srcs/wp-config.php			/var/www/wordpress/
+COPY	/srcs/start.sh				/
+
+EXPOSE	5050
+
+ENTRYPOINT sh start.sh
