@@ -34,35 +34,35 @@ The project consists of implementing an infrastructure with different services. 
 
 ### Components
 
-- MetalLB: Is a Load Balancer that manages external access to its services. It is the only entrance to the cluster.
+- ```MetalLB```: Is a Load Balancer that manages external access to its services. It is the only entrance to the cluster.
 
-- Nginx: Is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server.
+- ```Nginx```: Is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server.
 
-- vsFTPd: [very secure FTP daemon] Is an FTP server for Unix-like system, including Linux.
+- ```vsFTPd```: [very secure FTP daemon] Is an FTP server for Unix-like system, including Linux.
 
-- MariaDB: Is a database management system derived from MySQL with a GPL (General Public License).
+- ```MariaDB```: Is a database management system derived from MySQL with a GPL (General Public License).
 
-- Wordpress: Is a CMS(Content Managament System) focused on the creation of any type of web page.
+- ```Wordpress```: Is a CMS(Content Managament System) focused on the creation of any type of web page.
 
-- PhpMyAdmin: Is a free software tool intended to handle the administration of MySQL over the web.
+- ```phpMyAdmin```: Is a free software tool intended to handle the administration of MySQL over the web.
 
-- InfluxDB: Is a open-source time series database developed by InfluxData
+- ```InfluxDB```: Is a open-source time series database developed by InfluxData
 
-- Telegraf: Is the open-source server agent to help you collect metrics from your stacks, sensors and systems.
+- ```Telegraf```: Is the open-source server agent to help you collect metrics from your stacks, sensors and systems.
 
-- Grafana: Is a open-source graphing and analisys software. Allows you to query, view, alert, and explore your metrics from Time Series Database Storage(TSDB)
+- ```Grafana```: Is a open-source graphing and analisys software. Allows you to query, view, alert, and explore your metrics from Time Series Database Storage(TSDB)
 
 ### Technologies
 
-- Docker: Is a open-source project that automates the deployment of applications within software containers.
+- ```Docker```: Is a open-source project that automates the deployment of applications within software containers.
 
-- Kubernetes: Is an open-source system for automating the deployment, scaling, and handling of containerized applications.
+- ```Kubernetes```: Is an open-source system for automating the deployment, scaling, and handling of containerized applications.
 
-- Minikube: Is a tool that lets you run kubernetes locally. minikube runs a single-node kubernetes cluster on your personal computer.
+- ```Minikube```: Is a tool that lets you run kubernetes locally. minikube runs a single-node kubernetes cluster on your personal computer.
 
-- VirtualBox: Is virtualization software for x86/amd64 architectures.
+- ```VirtualBox```: Is virtualization software for x86/amd64 architectures.
 
-- Alpine Linux: Is a Linux distribution based on musl and BusyBox, which aims to be lightweigth and secure by default.
+- ```Alpine Linux```: Is a Linux distribution based on musl and BusyBox, which aims to be lightweigth and secure by default.
 
 ### Technical considerations
 
@@ -186,7 +186,7 @@ kubectl version -o json
 # Once you have set up all the required software, you are ready to start Minikube.
 minikube start --vm-driver=virtualbox
 # First, the system downloads the Minikube ISO file from an online source and the localkube binary.
-# Then, creates a virtual machine in VirtualBox within which it starts and configures a single node cluster.
+# Then, creates a VM in VirtualBox within which it starts and configures a single node cluster.
 ```
 
 > Common Minikube Commands
@@ -240,7 +240,7 @@ cd ft_services && sh setup.sh
 - MetalLB Configuration - [MetalLB](https://metallb.universe.tf/configuration/)
 - Installing MariaDB - [MariaDB](https://mariadb.com/kb/en/getting-installing-and-upgrading-mariadb/)
 - PHP Manual - [Command line usage](https://www.php.net/manual/en/features.commandline.options.php)
-- Manpage of VSFTPD.CONF - [VSFTPD.CONF](http://vsftpd.beasts.org/vsftpd_conf.html)
+- Manpage of vsFTPd.conf - [vsFTPd.conf](http://vsftpd.beasts.org/vsftpd_conf.html)
 - InfluxData Documentation - [InfluxData](https://docs.influxdata.com/)
 - Grafana Documentation - [Grafana Labs](https://grafana.com/docs/grafana/latest/)
 - Schema ft_services - [AdrianWR](https://github.com/AdrianWR/ft_services/blob/master/srcs/ft_services.png)
