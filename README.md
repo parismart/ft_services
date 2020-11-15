@@ -1,6 +1,6 @@
 # ft_services
 
-![https://d33wubrfki0l68.cloudfront.net/eb4e41f2cba0cbc8d119f8d0eb2bd6935cb78fc8/ba7d6/images/community/kubernetes-community-final-02.jpg](https://github.com/parismart/ft_services)
+![https://d33wubrfki0l68.cloudfront.net/eb4e41f2cba0cbc8d119f8d0eb2bd6935cb78fc8/ba7d6/images/community/kubernetes-community-final-02.jpg](https://github.com/parismart/ft_services.git)
 
 > The project consists of implementing an infrastructure with different services using kubernetes. School project done at 42Madrid.
 
