@@ -1,4 +1,4 @@
 #!/bin/sh
 
-#start telegraf and grafana server
+# Start Telegraf and Grafana server.
 telegraf & grafana-server

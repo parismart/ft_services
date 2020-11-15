@@ -1,4 +1,4 @@
 #!/bin/sh
 
-#start telegraf and influxd
+# Start Telegraf and Influxdb.
 /etc/init.d/telegraf start & influxd
