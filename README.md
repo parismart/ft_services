@@ -14,16 +14,16 @@
 You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
-	- [Components](#components 🛠️)
+	- [Components 🛠️](#components)
 	- [Technologies](#technologies)
 	- [Technical Considerations](#technical-considerations)
 	- [Ports](#ports)
 - [How To Use](#how-to-use)
-	- [Installation](#installation 🔧)
-	- [Usage](#usage 📦)
-- [References](#references)
-- [License](#license)
-- [Author Info](#author-info)
+	- [Installation 🔧](#installation)
+	- [Usage 📦](#usage)
+- [References 📌](#references)
+- [License 📄](#license)
+- [Author Info  ✒️](#author-info)
 
 ---
 
@@ -32,7 +32,7 @@ You're sections headers will be used to reference location of destination.
 You will discover cluster deployment and management with Kubernetes. You are going to do what is called "clustering".
 The project consists of implementing an infrastructure with different services. For this, we will use ```Kubernetes```, therefore, we will install a cluster that groups several service containers. Each service works in a dedicated container, and the containers have the same name as the associated service. For performance reasons the containers are built on ```Alpine Linux```. To complete the project we need the next components:
 
-### Components 🛠️
+### Components
 
 - MetalLB: Is a Load Balancer that manages external access to its services. It is the only entrance to the cluster.
 
@@ -95,7 +95,7 @@ The project consists of implementing an infrastructure with different services. 
 
 ## How To Use
 
-### Installation 🔧
+### Installation
 
 > Step 1: Update System and Install Required Packages
 
@@ -217,7 +217,7 @@ minikube addons list
 # Once you exit the terminal, the process will end and the Minikube dashboard will shut down.
 minikube dashboard
 ```
-### Usage 📦
+### Usage
 
 > Deployment
 
@@ -230,7 +230,7 @@ cd ft_services && sh setup.sh
 
 ---
 
-## References 📌
+## References
 
 - Curso de Kubernetes - [Iñigo Serrano](https://www.youtube.com/playlist?list=PLrb1e2Mp6N_uJSNsV-7SqLFaBdImJsI5x)
 - Docker & k8s resources - [notion](https://www.notion.so/Docker-k8s-resources-5d89599a520b479e8f18487aa3e537a3)
@@ -251,7 +251,7 @@ cd ft_services && sh setup.sh
 
 ---
 
-## License 📄
+## License
 
 MIT License
 
@@ -267,7 +267,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-## Author Info ✒️
+## Author Info
 
 - Twitter - [@TroyaParisde](https://twitter.com/TroyaParisde)
 - Instagram - [@parisdetroya42](https://instagram.com/parisdetroya42)
