@@ -1,6 +1,6 @@
 # ft_services
 
-![https://d33wubrfki0l68.cloudfront.net/eb4e41f2cba0cbc8d119f8d0eb2bd6935cb78fc8/ba7d6/images/community/kubernetes-community-final-02.jpg](https://github.com/parismart/ft_services.git)
+![logo](https://d33wubrfki0l68.cloudfront.net/eb4e41f2cba0cbc8d119f8d0eb2bd6935cb78fc8/ba7d6/images/community/kubernetes-community-final-02.jpg)
 
 > The project consists of implementing an infrastructure with different services using kubernetes. School project done at 42Madrid.
 
@@ -14,13 +14,13 @@
 You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
-	-[Components](#components)
-	-[Technologies](#technologies)
-	-[Technical Considerations](#technical-considerations)
-	-[Ports](#ports)
+	- [Components](#components 🛠️)
+	- [Technologies](#technologies)
+	- [Technical Considerations](#technical-considerations)
+	- [Ports](#ports)
 - [How To Use](#how-to-use)
-	- [Installation](#installation)
-	- [Usage](#usage)
+	- [Installation](#installation 🔧)
+	- [Usage](#usage 📦)
 - [References](#references)
 - [License](#license)
 - [Author Info](#author-info)
@@ -123,15 +123,17 @@ sudo apt update
 apt-cache policy docker-cesudo
 # Finally, install Docker.
 sudo apt-get install docker-ce
-# Docker should now be installed, the daemon started, and the process enabled to start on boot. Check that it’s running.
+# Docker should now be installed, the daemon started, and the process enabled to start on boot.
+# Check that it’s running.
 sudo systemctl status docker
 # To avoid typing sudo whenever you run the docker command, add your username to the docker group:
 sudo usermod -aG docker $(whoami);
 # To apply the new group membership, log out of the server and back in, or type the following.
 su - ${USER}
-# You will be prompted to enter your user’s password to continue. Confirm that your user is now added to the docker group by typing.
+# You will be prompted to enter your user’s password to continue.
+# Confirm that your user is now added to the docker group by typing.
 id -nG
-# Using docker consists of passing it a chain of options and commands followed by arguments. The syntax takes this form.
+# Using docker consists of passing it a chain of options and commands followed by arguments.
 docker [option] [command] [arguments]
 # To view all available subcommands, type:
 docker
@@ -139,18 +141,22 @@ docker
 
 > Step 3: Install VirtualBox Hypervisor and FileZilla
 ```shell
-# You need a virtual machine in which you can set up your single node cluster with Minikube. You can use VirtualBox.
-# Confirm the installation with "y" and hit "Enter". Next, the licence agreement appears on the screen. Press "Tab" and then "Enter" to continue.
+# You need a virtual machine in which you can set up your single node cluster with Minikube.
+# You can use VirtualBox.
+# Confirm the installation with "y" and hit "Enter".
+# Next, the licence agreement appears on the screen.nPress "Tab" and then "Enter" to continue.
 # The installer asks you to agree with the terms of the VirtualBox PUEL license by selecting "Yes".
 # Note: For the VirtualBox hypervisor to work, hardware virtualization must be enabled in your system BIOS.
 sudo apt install virtualbox virtualbox-ext-pack
-# FileZilla is the open source FTP client program. it allows us to securely transfer files from the local computer to the remote computer.
+# FileZilla is the open source FTP client program.
+# It allows us to securely transfer files from the local computer to the remote computer.
 sudo apt-get install filezilla
 ```
 
 > Step 4: Install Minikube
 ```shell
-# With VirtualBox set up, move on to installing Minikube on your Ubuntu system. First, download the latest Minikube binary using the wget command.
+# With VirtualBox set up, move on to installing Minikube on your Ubuntu system.
+# First, download the latest Minikube binary using the wget command.
 wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 # Copy the downloaded file and store it into the /usr/local/bin/minikube directory.
 sudo cp minikube-linux-amd64 /usr/local/bin/minikube
@@ -175,11 +181,12 @@ kubectl version -o json
 
 > Step 6: Start Minikube
 ```shell
-# Note: Your VM has to have at least 2 CPU cores avalaible. It doesn't by default, so go into Virtualbox settings and add another core to it.
+# Note: Your VM has to have at least 2 CPU cores avalaible.
+# It doesn't by default, so go into Virtualbox settings and add another core to it.
 # Once you have set up all the required software, you are ready to start Minikube.
 minikube start --vm-driver=virtualbox
 # First, the system downloads the Minikube ISO file from an online source and the localkube binary.
-# Then, it creates a virtual machine in VirtualBox within which it starts and configures a single node cluster.
+# Then, creates a virtual machine in VirtualBox within which it starts and configures a single node cluster.
 ```
 
 > Common Minikube Commands
@@ -206,10 +213,11 @@ minikube status
 minikube delete
 # To see a list of installed Minikube add-ons.
 minikube addons list
-# To enable and access the Minikube dashboard via terminal. Once you exit the terminal, the process will end and the Minikube dashboard will shut down.
+# To enable and access the Minikube dashboard via terminal.
+# Once you exit the terminal, the process will end and the Minikube dashboard will shut down.
 minikube dashboard
 ```
-### Usage  📦
+### Usage 📦
 
 > Deployment
 
