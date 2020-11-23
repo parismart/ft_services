@@ -233,6 +233,7 @@ cd ft_services && sh setup.sh
 ## References
 
 - Curso de Kubernetes - [Iñigo Serrano](https://www.youtube.com/playlist?list=PLrb1e2Mp6N_uJSNsV-7SqLFaBdImJsI5x)
+- Kubernetes Tutorial - [Full Course in 4 Hours](https://www.youtube.com/watch?v=X48VuDVv0do&ab_channel=TechWorldwithNana)
 - Docker & k8s resources - [notion](https://www.notion.so/Docker-k8s-resources-5d89599a520b479e8f18487aa3e537a3)
 - Dockerfile reference - [Docker Documentation](https://docs.docker.com/engine/reference/builder/)
 - Welcome! | minikube - [minikube documentation](https://minikube.sigs.k8s.io/docs/)
