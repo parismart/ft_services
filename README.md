@@ -248,7 +248,7 @@ cd ft_services && sh setup.sh
 - Schema ft_services - [AdrianWR](https://github.com/AdrianWR/ft_services/blob/master/srcs/ft_services.png)
 - Schema kubernetes - [GuillaumeOz](https://github.com/GuillaumeOz/42_Ft_services/blob/master/assets/schema_ft_services.jpg)
 - YAML Object Reference - [GuillaumeOz](https://github.com/GuillaumeOz/42_Ft_services/blob/master/doc/yaml_files.md)
-- Tips for defending [ft_services on a VM] (https://www.notion.so/Ft_services-VM-852d4f9b0d9a42c1a2de921e4a2ac417)
+- Tips for defending - [ft_services on a VM](https://www.notion.so/Ft_services-VM-852d4f9b0d9a42c1a2de921e4a2ac417)
 
 [Back To The Top](#ft_services)
 
