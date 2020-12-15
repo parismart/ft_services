@@ -5,7 +5,7 @@ metadata:
     app: wordpress
   name: wordpress
   annotations:
-    metallb.universe.tf/address-pool: default-wp
+    metallb.universe.tf/address-pool: default
     metallb.universe.tf/allow-shared-ip: shared
 spec:
   ports:

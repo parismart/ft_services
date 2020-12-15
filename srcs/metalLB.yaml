@@ -9,8 +9,4 @@ data:
     - name: default
       protocol: layer2
       addresses:
-      - 192.168.99.170-192.168.99.175
-    - name: default-wp
-      protocol: layer2
-      addresses:
-      - 192.168.99.176-192.168.99.176
+      - 192.168.49.50-192.168.49.50
