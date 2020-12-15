@@ -1,7 +1,7 @@
 FROM	alpine
 
 RUN		apk update && apk add vsftpd openssl && \
-		apk add telegraf --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing/ --allow-untrusted --no-cache && \
+		apk add telegraf --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ --allow-untrusted --no-cache && \
 		echo "root:toor" | chpasswd && \
 		openssl req -x509 -nodes -days 365 \
 		-newkey rsa:2048 -subj "/C=SP/ST=Spain/L=Madrid/O=42/CN=127.0.0.1" \

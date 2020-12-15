@@ -13,17 +13,21 @@
 ### Index 📋
 You're sections headers will be used to reference location of destination.
 
-- [Description](#description)
-	- [Components 🛠️](#components)
-	- [Technologies](#technologies)
-	- [Technical Considerations](#technical-considerations)
-	- [Ports](#ports)
-- [How To Use](#how-to-use)
-	- [Installation 🔧](#installation)
-	- [Usage 📦](#usage)
-- [References 📌](#references)
-- [License 📄](#license)
-- [Author Info  ✒️](#author-info)
+- [ft_services](#ft_services)
+		- [Learn Build Teach 🚀](#learn-build-teach-)
+		- [Index 📋](#index-)
+	- [Description](#description)
+		- [Components](#components)
+		- [Technologies](#technologies)
+		- [Technical considerations](#technical-considerations)
+		- [Ports](#ports)
+	- [- ```Influxdb``` on port 8086](#--influxdb-on-port-8086)
+	- [How To Use](#how-to-use)
+		- [Installation](#installation)
+		- [Usage](#usage)
+	- [References](#references)
+	- [License](#license)
+	- [Author Info](#author-info)
 
 ---
 
@@ -222,7 +226,7 @@ minikube dashboard
 > Deployment
 
 ```shell
-git clone https://github.com/parismart/ft_services
+git clone https://github.com/parismart/ft_services.git
 cd ft_services && sh setup.sh
 ```
 
