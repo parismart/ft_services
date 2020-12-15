@@ -21,7 +21,6 @@ You're sections headers will be used to reference location of destination.
 		- [Technologies](#technologies)
 		- [Technical considerations](#technical-considerations)
 		- [Ports](#ports)
-	- [- ```Influxdb``` on port 8086](#--influxdb-on-port-8086)
 	- [How To Use](#how-to-use)
 		- [Installation](#installation)
 		- [Usage](#usage)
@@ -70,7 +69,7 @@ The project consists of implementing an infrastructure with different services. 
 
 ### Technical considerations
 
-- This demonstration is done on a Linux distribution ```Ubuntu 20.04.1 LTS```.
+- This demonstration is done on VM - Linux distribution ```Ubuntu 10.04.5 LTS```.
 
 - Set up a multi-service cluster that includes Nginx, Wordpress, PhpMyAdmin, MySQL, Grafana, InfluxDB and FTPS. Each service runs in a dedicated container.
 
@@ -93,6 +92,7 @@ The project consists of implementing an infrastructure with different services. 
 - ```MySQL``` on port 3306
 - ```Grafana``` on port 3000
 - ```Influxdb``` on port 8086
+
 ---
 
 [Back To The Top](#ft_services)
