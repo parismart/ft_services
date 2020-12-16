@@ -1,4 +1,5 @@
 # ft_services
+[![42Project Score](https://badge42.herokuapp.com/api/project/parmarti/ft_services)](https://github.com/JaeSeoKim/badge42)
 
 ![logo](https://d33wubrfki0l68.cloudfront.net/eb4e41f2cba0cbc8d119f8d0eb2bd6935cb78fc8/ba7d6/images/community/kubernetes-community-final-02.jpg)
 
